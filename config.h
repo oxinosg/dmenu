@@ -5,8 +5,10 @@ static int topbar = 1;                      /* -b  option; if 0, dmenu appears a
 /* -fn option overrides fonts[0]; default X11 font or font set */
 static int fuzzy = 1;                      /* -F  option; if 0, dmenu doesn't use fuzzy matching     */
 static const char *fonts[] = {
-  "SourceCodePro:style=Regular:size=14"
+  "SourceCodePro:style=Regular:size=14",
+  "Symbola-18"
 };
+// "SourceCodePro:style=Regular:size=14",
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
 static const char *colors[SchemeLast][2] = {
 	/*     fg         bg       */
